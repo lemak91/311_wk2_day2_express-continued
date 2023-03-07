@@ -1,4 +1,4 @@
-const contacts = "../data/contacts";
+const contacts = require("../data/contacts");
 
 
 const list = (req, res) => {

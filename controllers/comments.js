@@ -1,4 +1,4 @@
-const comments = "../data/comments";
+const comments = require("../data/comments");
 
 const list = (req, res) => {
     res.json(comments);

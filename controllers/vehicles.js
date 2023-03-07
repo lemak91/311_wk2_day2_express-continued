@@ -1,4 +1,5 @@
-const vehicles = "../data/vehicles";
+const vehicles = require("../data/vehicles");
+
 
 const list = (req, res) => {
   res.json(vehicles);
